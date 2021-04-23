@@ -1,2 +1,3 @@
+Adding one more line to the text file.
 This is another text file.
 It will be added to demonstrate commit instruction.
