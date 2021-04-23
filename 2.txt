@@ -1,0 +1,2 @@
+This is another text file.
+It will be added to demonstrate commit instruction.
