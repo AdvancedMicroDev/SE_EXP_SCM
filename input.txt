@@ -1,0 +1,16 @@
+*(fp + ioffset) = 0; 
+label top; 
+t0 = *(fp + ioffset); 
+iffalse (t0 < 10) goto done; 
+t1 = *(fp + joffset); 
+t2 = t1 * 4; 
+t3 = fp + t2; 
+t4 = *(t3 + boffset); 
+t5 = *(fp + ioffset); 
+t6 = t5 * 4; 
+t7 = fp + t6; *(t7 + aoffset) = t4; 
+t9 = *(fp + ioffset); 
+t10 = t9 + 1; 
+*(fp + ioffset) = t10; 
+goto top; 
+label done;
